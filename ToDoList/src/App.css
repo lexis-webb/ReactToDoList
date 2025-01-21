@@ -1,0 +1,20 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: grey;
+}
+
+button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
