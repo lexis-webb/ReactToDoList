@@ -32,7 +32,7 @@ function TodoList() {
    function toggleCompleted(id) {
     setTasks(tasks.map(task => {
     if (task.id === id) {
-    return {...tasks, completed: !task.completed};
+    return {...tasks, completed: ! task.completed};
     } else {
     return task;
     } 
@@ -53,6 +53,7 @@ function TodoList() {
     onChange={e => setText(e.target.value)} 
     />
    <button onClick={() => addTask(text)}>Add</button>
+   
     </div>
     );
    }
