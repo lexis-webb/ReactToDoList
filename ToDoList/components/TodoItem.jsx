@@ -6,7 +6,7 @@ function TodoItem({ task, deleteTask, toggleCompleted }) {
         {/* Checkbox to toggle completion */}
         <input
           type="checkbox"
-          checked={task.completed}
+          checked="{task.completed}"
           onChange={() => toggleCompleted(task.id)} // Toggle completion on checkbox change
         />
         
@@ -19,6 +19,7 @@ function TodoItem({ task, deleteTask, toggleCompleted }) {
         <button onClick={() => deleteTask(task.id)}>Delete</button>
       </div>
     );
+    
   }
-  
+
   export default TodoItem;

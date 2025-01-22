@@ -1,8 +1,15 @@
 .todo-item {
   display: flex;
   align-items: center;
-  margin-bottom: 8px;
-  
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.todo-item:hover {
+  background-color: #f1f1f1;
 }
 
 .todo-text.completed{
@@ -16,9 +23,23 @@ button {
   cursor: pointer;
 }
 
-input[type="checkbox"] {
+.todo-list input[type="checkbox"] {
   margin-right: 10px;
-  
+  transform: scale(1.2);
+}
 
-} 
+h1{
+  text-align: center;
+}
+
+.todo-item button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
 
