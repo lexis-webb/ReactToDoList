@@ -6,8 +6,8 @@ function TodoItem({ task, deleteTask, toggleCompleted }) {
         {/* Checkbox to toggle completion */}
         <input
           type="checkbox"
-          checked="{task.completed}"
-          onChange={() => toggleCompleted(task.id)} // Toggle completion on checkbox change
+          // checked="{task.completed}"
+          // onChange={() => toggleCompleted(task.id)} // Toggle completion on checkbox change
         />
         
         {/* strikethrough if completed */}
