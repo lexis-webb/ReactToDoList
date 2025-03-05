@@ -26,6 +26,7 @@ button {
 .todo-list input[type="checkbox"] {
   margin-right: 10px;
   transform: scale(1.2);
+  
 }
 
 h1{
@@ -41,8 +42,6 @@ h1{
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-.todo-text.completed {
-  text-decoration: line-through;
-}
+
 
 
